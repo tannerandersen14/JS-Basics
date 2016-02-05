@@ -34,7 +34,9 @@ var getName =  function() {
 //then alerts "Welcome, " plus whatever the users name is.
 
   //Code Here
-
+var welcome = function() {
+  alert("Welcome, " + getName());
+}
 
 //Next problem
 
@@ -44,7 +46,7 @@ var getName =  function() {
 //What is the difference between arguments and parameters?
 
   //Answer Here
-
+  Parameters act as placeholders for arguments, which are given by the dev in some way, directly or indeirectly. Arguments are actually executed in the code.
 
 //Next problem
 
@@ -54,7 +56,7 @@ var getName =  function() {
 
 
   //Answer Here
-
+0, '', false, NaN, null, and undefined. Set it into an if statement and check if it is == to true.
 
 
 //Next Problem
@@ -64,16 +66,19 @@ var getName =  function() {
 //Create a function called myName that returns your name
 
   //Code Here
-
+var myName = function() {
+  return Tanner Andersen
+}
 
 
 //Now save the function definition of myName into a new variable called newMyName
 
   //Code Here
+var newMyName = myName();
 
 //Now alert the result of invoking newMyName
 
-
+alert(newMyName());
 
 //Next problem
 
@@ -82,9 +87,14 @@ var getName =  function() {
 //Create a function called outerFn which returns an anonymous function which returns your name.
 
   //Code Here
-
+var outerFn = function() {
+  return var anonymous = function() {
+    return Tanner Andersen;
+  }
+}
 //Now save the result of invoking outerFn into a variable called innerFn.
 
   //Code Here
-
+var innerFn = outerFn();
 //Now invoke innerFn.
+innerFn();
