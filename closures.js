@@ -164,10 +164,17 @@ counter();
 
 
 }
-
-  funcArray[0]() //0
-  funcArray[1]() //1
-  funcArray[2]() //2
-  funcArray[3]() //3
-  funcArray[4]() //4
-  funcArray[5]() //5
+var funcArray = [
+  function(){return 0},
+function(){return 1},
+function(){return 2},
+function(){return 3},
+function(){return 4},
+function(){return 5},
+];
+funcArray[0](); //0
+funcArray[1](); //1
+funcArray[2](); //2
+funcArray[3](); //3
+funcArray[4](); //4
+funcArray[5](); //5
