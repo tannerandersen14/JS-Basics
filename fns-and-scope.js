@@ -6,13 +6,14 @@ var name = 'Tyler';
 //If the argument you passed in is equal to 'Tyler', return true. If it's not, return false.
 
   //Code Here
-var isTyler = function(name) {
+function isTyler(name) {
   if (name == "Tyler") {
     return true;
   } else {
     return false;
   }
 }
+
 //Next problem
 
 
@@ -46,7 +47,7 @@ var welcome = function() {
 //What is the difference between arguments and parameters?
 
   //Answer Here
-  Parameters act as placeholders for arguments, which are given by the dev in some way, directly or indeirectly. Arguments are actually executed in the code.
+//  Parameters act as placeholders for arguments, which are given by the dev in some way, directly or indeirectly. Arguments are actually executed in the code.
 
 //Next problem
 
@@ -56,7 +57,7 @@ var welcome = function() {
 
 
   //Answer Here
-0, '', false, NaN, null, and undefined. Set it into an if statement and check if it is == to true.
+// 0, '', false, NaN, null, and undefined. Set it into an if statement and check if it is == to true.
 
 
 //Next Problem
@@ -67,7 +68,7 @@ var welcome = function() {
 
   //Code Here
 var myName = function() {
-  return Tanner Andersen
+  return "Tanner Andersen"
 }
 
 
@@ -89,7 +90,7 @@ alert(newMyName());
   //Code Here
 var outerFn = function() {
   return var anonymous = function() {
-    return Tanner Andersen;
+    return "Tanner Andersen";
   }
 }
 //Now save the result of invoking outerFn into a variable called innerFn.
