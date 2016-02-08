@@ -5,7 +5,7 @@ var outer = function(){
   return function(){
     return 'The original name was ' + name;
   }
-}
+};
 //Above you're given a function that returns another function which has a closure over the name variable.
 //Invoke outer saving the return value into another variable called 'inner'.
 
@@ -163,7 +163,7 @@ var counter = function(){
 counter();
 
 
-}
+
 var funcArray = [
   function(){return 0},
 function(){return 1},

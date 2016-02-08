@@ -67,8 +67,8 @@ var welcome = function() {
 //Create a function called myName that returns your name
 
   //Code Here
-var myName = function() {
-  return "Tanner Andersen"
+function myName() {
+  return "Tanner Andersen";
 }
 
 
@@ -89,9 +89,10 @@ alert(newMyName());
 
   //Code Here
 var outerFn = function() {
-  return var anonymous = function() {
+   function anonymous() {
     return "Tanner Andersen";
   }
+  return anonymous;
 }
 //Now save the result of invoking outerFn into a variable called innerFn.
 
